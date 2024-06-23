@@ -1,0 +1,826 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body,html{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+body {
+    font-family: "Inter", sans-serif;
+
+}
+
+/* hero section css */
+
+
+header{
+    background-color: #02050A;
+    position: relative;
+   
+}
+
+
+  .aa {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2 ;
+    transition: 0.9s;
+    animation-name: head;
+    animation-duration:0.9s;
+    animation-play-state: running;
+  }  
+  @keyframes head {
+    0%{
+        transform: translateY(-20px);
+    }
+    100%
+    {
+        transform: translateY();
+    }
+  }
+
+.hero ul li{
+    list-style: none;
+
+}
+.hero ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+.hero ul li a:hover{
+    color: #4AC890;
+}
+.hero .btn
+{
+    color: white;
+    background-color: #4AC890;
+}
+
+.hero .btn:hover{
+    background-color: #FFFFFF;
+    color: black;
+  
+}
+
+/* hero section */
+
+/* home */
+
+.home{
+    background-color: #02050A;
+   
+}
+
+
+
+.mid-p{
+    color: white;
+    font-size: 60px;
+    position: relative; 
+    animation: mm;
+    transition: 0.6s;
+    animation-duration: 3s;
+}
+
+@keyframes mm {
+    
+    0%{ opacity: 0;
+        transform: translateX(-50px)
+    }
+    100%{opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.mid-p:hover{
+    color: #4AC890;
+}
+.op {
+    color: #CD98FE;
+  font-size: 50px;
+}
+.imgpurple1{
+    position: absolute;
+    top: -13px;;
+    left: 135px;
+    animation-name: img1;
+    transition: 0.9s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+    
+}
+
+.imgpurple2{
+   position: absolute;
+   top: 0;
+   right: 176px;
+   animation-name: img2;
+   transition: 0.6s;
+   animation-duration: 8s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   animation-direction: alternate-reverse;
+
+}
+
+.imgpurple3{
+    position: absolute;
+    bottom: -24px;
+    left: 319px;
+    animation-name: img3;
+    transition: 0.8s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+.imgpurple4{
+    position: absolute;
+    bottom: -62px;
+    right: 258px;
+    animation-name: img4;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    transition: 0.6s;
+}
+
+
+@keyframes img1 {
+    0% {
+        transform: translatex(30px);
+    }
+    100%{
+        transform: translatex(0px);
+    }
+}
+
+@keyframes img2{
+    
+
+    0%{transform: translatex(15px);}
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes img3 {
+     0%{
+        transform: translateX(20px);
+     }
+     100%{
+        transform: translateX(0px);
+     }
+}
+@keyframes img4 {
+    
+
+    0%{transform: translatex(20px);}
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.second{
+    animation-name: second;
+    transition: 0.9s;
+    animation-duration: 3s;
+  
+}
+
+@keyframes second {
+    0%{
+        opacity: 0;
+        transform: translateX(55px)
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+}
+
+
+.ementor ul li
+{
+    list-style: none;
+}
+
+.ementor{
+    animation-name: mm;
+    transition: 0.9s;
+    animation-duration: 3s;
+}
+
+.logohead{
+    margin-left:-17px;
+}
+
+.green-circle
+{
+    background-color: #54E6A5;
+    text-align: center;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 40px;
+    animation-name: second;
+    transition: 0.9s;
+    animation-duration: 3s;
+}
+.green-circle:hover{
+    background-color: #02050A;
+    border: 1px solid #FFFFFF;
+}
+
+.green-circle-explore{
+    position: absolute;
+    top: 21px;
+    left: 13px;
+}
+
+.green-circle-explore li{
+    color: #02050A;
+}
+
+.green-circle:hover .green-circle-explore li{
+    color: #FFFFFF;
+}
+
+.green-box{
+    background: #3adb85;
+}
+
+.biz {
+    animation-name: biz;
+    transition: 0.9s;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+}
+
+@keyframes biz {
+
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.heading1 {
+    font-size: 85px;
+    font-weight: 800;
+}
+.borderinheading1
+{
+   border-bottom: 2px solid black;
+   width: 100%;
+   position: relative;
+   left: -16px;
+
+}
+ul li {
+list-style: none;
+}
+
+
+.whitebox {
+    background-color: #FFFFFF;
+}
+.font27{
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.heading2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+}
+
+
+.white {
+    background-color: white;
+
+}
+.front{
+    background-color: white;
+   width: 230px;
+   border-radius: 50px;
+   transition: 0.6s;
+   text-align: center;
+}
+
+.front{
+    box-shadow:0px 5px 0px 0px #3adb85;
+    
+   
+}
+
+.front:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 5px 9px 0px  #b5efd0;
+}
+
+.color-green {
+    color: #3adb85;
+}
+.top-web {
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.web{
+    font-size: 60px;
+    color: white;
+}
+.card {
+    width: 300px;
+    height: 307px;
+    position: relative;
+    background-color: #02050A;
+}
+
+.abo-ig{
+    position: absolute;
+    top: 180px;
+    left: 8px;
+}
+.webdev{
+    padding-top: 20px;
+}
+
+.arrow-box{
+    background-color: #02050A;
+    width: 48px;
+    height: 40px;
+    padding-top: 7px;
+    text-align: center;
+    border-radius: 3px;
+    position: absolute;
+    top: 17px;
+    right: 15px;
+    
+}
+
+.card:hover{
+    background-color: #54E6A5;
+}
+.card:hover .web {
+    color: black;
+}
+
+
+
+
+.wrapper{
+    background-color: #54E6A5;
+    overflow: hidden;
+    height: 220px;
+    
+
+}
+.wrapperinside {
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    padding-top: 62px;
+    animation: wrapper;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    white-space: nowrap;
+    animation-timeline: auto;
+    animation-range-start: normal;
+
+}
+
+@keyframes wrapper {
+    0%{
+        transform: translateX(0%);
+
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+    
+}
+
+
+.arow
+{
+    transform: rotate(-36deg);
+
+}
+
+
+
+.title:hover{
+    border-bottom: 1px solid #54E6A5;
+}
+.title:hover .title-inside{
+    border-bottom: 1px solid #54E6A5;
+}
+.title {
+    color: white;
+}
+
+.title-inside{
+    border-bottom: 1px solid transparent;
+}
+.title {
+ border-bottom: 1px solid transparent;
+}
+
+.team {
+    color: #4AC890;
+    font-size: 18px;
+}
+
+.team-heading{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.one{
+    font-size: 80px;
+    color:transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(72, 70, 70);
+    
+}
+
+.one:hover{
+    color: #02FF95;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#02FF95 ;
+}
+
+@media (min-width: 1200px) 
+{
+    .h1, h1 {
+        font-size: 120px;
+    }
+}
+.slide {
+    z-index:0;
+    position: relative;
+    top: 0;
+    
+}
+
+.check {
+    color: #02FF95;
+}
+.ninerow {
+    line-height: 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+.tenicon{
+    color: #02FF95;
+    font-size: 60px;
+}
+
+.pack {
+    color: white;
+    background-color: transparent;
+    padding: 16px 19px;
+    border: 1px solid #02ff9630;
+}
+
+.pack:hover {
+    color: black;
+    border: 1px solid #02FF95;
+    background-color: #02FF95;
+}
+
+.sliderfont {
+    font-size: 30px;
+    color: white;
+}
+
+.slider-circle{
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+}
+
+.column{
+    gap: 120px;
+}
+
+.cards {
+    width: 400px;
+    height: 700px; 
+    position: relative;
+}
+
+.card2nd{
+    overflow: hidden;
+    width: 376px;
+    height: 379px;    
+}
+
+
+.cards-text{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.cards:hover img{
+    transform: scale(1.3);
+    filter: brightness(45%);
+}
+.cards-circle:hover{
+    visibility:visible;
+}
+.cards img {
+    transition: 1s;
+}
+
+
+.cards-circle {
+    background-color: #02FF95;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 450px;
+    left: 151px;
+    cursor: pointer;
+    opacity: 0;
+
+}
+.cards-circle a {
+    color: black;
+}
+
+.cards-circle p{
+    font-size: 30px;
+}
+
+.cards:hover .cards-circle{
+    opacity: 1;
+}
+
+/* footer part */
+
+.footer-logo {
+    width: 202px;
+}
+
+.footer-heading{
+    font-size: 85px;
+    color: white;
+}
+
+.btn-footer{
+    background-color:transparent;
+    padding: 10px 50px 0px 50px ;
+    border-radius: 50px;
+    border: 1px solid #02FF95;
+}
+.btn-footer h4{
+    color: white;
+}
+.btn-footer h5{
+    color: white;
+}
+.btn-footer:hover h5{
+    color: black;
+}
+.btn-footer:hover h4{
+    color: black;
+}
+
+.btn-footer:hover{
+    background-color: #02FF95;
+  
+    border-radius: 50px;
+    border: 1px solid #02FF95;
+  
+}
+
+
+.footer-list a{
+    color: gainsboro;
+    text-decoration: none;
+    line-height: 50px;
+  }
+  
+  .footer-list li{
+      list-style: disc;
+      color: white;
+  }
+  .footer-list a:hover {
+      color: #02FF95;
+  }
+  
+  .footer-border {
+      border-top: 1px solid #cccccc3b;
+  }
+  
+
+@media screen and (max-width:480px){
+   
+    .bg {
+        background-color: #02050A;
+    }
+
+    .off-img {
+        width: 120px;
+    }
+   .offcanvas a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+   }
+
+   .mid-p{
+    margin-top: 30px;
+   }
+   .imgpurple1,.imgpurple2,.imgpurple3,.imgpurple4{
+    display: none;
+   }
+
+   .biz {
+    margin-right: 40px;
+    padding-right: 50px;
+   }
+
+   .green-circle{
+     top: 103px;
+   }
+   .green-box{
+    width: 89%;
+    padding-right: 20px;
+    margin-left: 10px;
+
+
+   }
+   .green-box img{
+     display: none;
+   }
+   
+   .whitebox{
+    margin-top: 40px;
+    width: 89%;
+    padding-right: 20px;
+    margin-left: 10px;
+   }
+   .wrap {
+    flex-wrap: wrap;
+   }
+ .front {
+    width: 230px;
+    height: 58px;
+    padding-right: 10px;
+    padding: 8px 34px 0px 0px;
+ }
+
+ .smwrap {
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+.row-4{
+    width: 100%;
+    
+    padding-right:72px ;
+}
+
+
+.card{
+    left: 43px;
+    margin: 60px 0px
+}
+.wrapperinside pre{
+  font-size: 30px;
+  margin-top: 30px;
+  
+}
+.big-title{
+    margin-top: 70px;
+}
+ .one {
+    font-size: 50px;
+ }
+ 
+ .column{
+    flex-wrap: nowrap;
+ }
+ .ninerow{
+    left: 45px;
+ }
+
+.one h1{
+    font-size: 58px;
+ }
+
+ .column2{
+    margin-top: 30px;
+ }
+
+
+  .tenicon{
+    margin-left: 64px;
+  }
+
+  .silverpackage{
+    margin-top: 40px;
+  }
+
+  .silverpackage .pack{
+    margin-left: 64px;
+  }
+
+
+  .cards {
+    margin-left: 25px;
+}
+.top-web{
+    margin-right: 23px;
+}
+.footer-heading {
+    font-size: 37px;
+    margin-right: 5px;
+}
+.quick {
+    text-align: center;
+    margin-top: 30px;
+}
+.footer-list {
+    margin-left: 15px;
+}
+.together {
+    text-align: center;
+}
+  }
+
+
+  .green-circle
+{
+    background-color: #54E6A5;
+    text-align: center;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 40px;
+    animation-name: second;
+    transition: 0.9s;
+    animation-duration: 3s;
+}
+.green-circle:hover{
+    background-color: #02050A;
+    border: 1px solid #FFFFFF;
+}
+
+.green-circle-explore{
+    position: absolute;
+    top: 21px;
+    left: 13px;
+}
+
+.green-circle-explore li{
+    color: #02050A;
+}
+
+.green-circle:hover .green-circle-explore li{
+    color: #FFFFFF;
+}
+
+.green-box{
+    background: #3adb85;
+}
